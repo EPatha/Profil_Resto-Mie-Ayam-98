@@ -1,0 +1,36 @@
+# Flutter/Dart related
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.png
+**/GeneratedPluginRegistrant.*
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+
+# Android
+.android/
+*.iml
+.gradle/
+/local.properties
+
+# VS Code
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# macOS
+.DS_Store
+
+# Others
+pubspec.lock
+*.log
