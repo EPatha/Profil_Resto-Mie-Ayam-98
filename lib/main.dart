@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'widgets/phone_frame.dart';
 
 void main() {
   runApp(const RestoApp());
@@ -17,7 +18,7 @@ class RestoApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
         useMaterial3: true,
       ),
-      home: const RestoProfilePage(),
+  home: const PhoneFrame(child: RestoProfilePage()),
     );
   }
 }
